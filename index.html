@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invicta Pintura Automotiva</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Invicta Pintura Automotiva</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio"><i class="bi bi-house"></i> Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre"><i class="bi bi-info-square"></i> Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos"><i class="bi bi-ev-front"></i> Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato"><i class="bi bi-telephone"></i> Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Início -->
+    <section id="inicio" class="vh-100 d-flex align-items-center text-center text-white"
+        style="background: url('invicta.png') center/cover no-repeat;">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Bem-vindo à Invicta</h1>
+            <p class="lead">Seu serviço de qualidade</p>
+            <a href="#servicos" class="btn btn-light">Nossos Serviços</a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Sobre Nós</h2>
+            <p class="text-justify">
+                Na Invicta Pintura Automotiva, transformamos veículos com qualidade. São 6 anos de experiência atuando em Manaus com precisão e cuidado. Somos especializados em pintura automotiva, polimento, retoques, funilaria e revitalização de pintura, sempre oferecendo o melhor acabamento e a satisfação dos nossos clientes.<br><br>
+                Com equipe altamente qualificada, usamos os melhores materiais e tecnologias do mercado. Cada veículo recebe tratamento exclusivo, devolvendo brilho, cor e beleza.<br><br>
+                Trabalhamos com transparência, profissionalismo e compromisso, entregando serviços de qualidade, rapidez e preço justo. Seja para pequenos reparos ou pintura completa, a Invicta é a escolha certa!
+            </p>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nossos Serviços</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center">
+                        <h4>Vitrificação</h4>
+                        <img src="serviços/Vitrificação.png" alt="Vitrificação" class="img-fluid rounded mb-3">
+                        <h6>— Proteção e Brilho Duradouros</h6>
+                        <p>Acabamento impecável e proteção contra riscos e danos do sol. A vitrificação cria uma camada resistente, com brilho intenso e proteção duradoura.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center">
+                        <h4>Lavagem</h4>
+                        <img src="serviços/Lavagem.png" alt="Lavagem" class="img-fluid rounded mb-3">
+                        <h6>— Seu Carro Limpo e Renovado</h6>
+                        <p>Lavagem completa interna e externa, removendo sujeira, manchas e poeira, preservando pintura e interior.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center">
+                        <h4>Serviços Gerais</h4>
+                        <img src="serviços/Serviços.png" alt="Serviços" class="img-fluid rounded mb-3">
+                        <h6>— Cuidado Completo</h6>
+                        <p>De lavagens detalhadas a tratamentos avançados como vitrificação. Qualidade, preço justo e atendimento rápido para seu carro.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center">
+                        <h4>Rodas</h4>
+                        <img src="serviços/Rodas.png" alt="Rodas" class="img-fluid rounded mb-3">
+                        <h6>— Renovação e Estilo</h6>
+                        <p>Restauração, pintura ou personalização das rodas. Alta durabilidade, resistência e acabamento impecável para seu veículo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contato</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label">Nome</label>
+                    <input type="text" class="form-control" placeholder="Digite seu nome">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Telefone</label>
+                    <input type="tel" class="form-control" placeholder="(XX) XXXXX-XXXX">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="exemplo@email.com">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Assunto</label>
+                    <select class="form-select">
+                        <option>Serviço</option>
+                        <option>Vitrificação</option>
+                        <option>Lavagem</option>
+                        <option>Pintura</option>
+                        <option>Rodas</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label class="form-label">Mensagem</label>
+                    <textarea class="form-control" rows="5" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        © 2025 Manawarah - Invicta Pintura Automotiva. Todos os direitos reservados.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
